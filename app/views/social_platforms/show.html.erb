@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @social_platform %>
+
+<div>
+  <%= link_to "Edit this social platform", edit_social_platform_path(@social_platform) %> |
+  <%= link_to "Back to social platforms", social_platforms_path %>
+
+  <%= button_to "Destroy this social platform", @social_platform, method: :delete %>
+</div>
